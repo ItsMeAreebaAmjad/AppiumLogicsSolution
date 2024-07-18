@@ -851,4 +851,83 @@ line-height: 2.2rem;
     align-items: center;
     height: 100vh; /* Adjust this according to your layout */
   }
-  
+
+
+
+
+/* Updated CSS */
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.text-section {
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section p {
+  margin-bottom: 20px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-list li {
+  flex: 1 1 calc(50% - 20px);
+  background: #e4e4e4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .content{
+  width:800px;
+  margin-left: 20px;
+}
+
+.container img{
+  width:500px;
+  height:400px;
+  margin-left: 900px;
+  margin-top: -300px;
+  border-radius: 5px;
+}
+
+.container2 .content2{
+  width:800px;
+  margin-left: 680px;
+  margin-top: 50px;
+}
+
+.container2 img{
+  width:500px;
+  height:400px;
+  margin-left: 20px;
+  margin-top: -280px;
+  border-radius: 5px;
+}
+.container3 .content3{
+  width:800px;
+  margin-left: 20px;
+}
+
+.container3 img{
+  width:500px;
+  height:400px;
+  margin-left: 900px;
+  margin-top: -360px;
+  border-radius: 5px;
+}
+
+/* Contact form CSS */
+

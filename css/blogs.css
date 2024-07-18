@@ -68,12 +68,24 @@ width: 100%;
   margin-bottom: 10px;
 }
 
+.righticons{
+  width:150px;
+}
+
+.righticons .fa-brands{
+  color:white;
+}
+
 .righticons ul {
   justify-content: center;
   align-items: center;
   list-style: none;
   display: flex;
 
+}
+
+.righticons .right-social-icons{
+  color:white;
 }
 
 .righticons ul i {

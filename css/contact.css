@@ -451,12 +451,12 @@ font-size: 12px;
       margin-top: 1.5rem;
       border-radius: 4px;
     }
-    .contactus .contact_form .flex .inputBox input:focus {
+    /* .contactus .contact_form .flex .inputBox input:focus {
       background-color: var(--black);
       color: var(--white);
-    }
+    } */
     .contactus .contact_form .flex .inputBox input:focus::placeholder {
-      color: rgb(244, 243, 243);
+      color: rgb(193, 182, 182);
     }
     .textfields {
       width: 100%;

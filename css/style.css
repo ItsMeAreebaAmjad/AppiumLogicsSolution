@@ -573,13 +573,14 @@ text-align: start;
 /* services section  */
 
 .services .box-container {
-  margin-top: 45px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
+  padding: 2rem 2rem;
 }
 
 .services .box-container .box {
+  margin-top: 20px;
   border-radius: 10px;
   padding: 3rem 2rem;
   text-align: center;
@@ -587,6 +588,7 @@ text-align: start;
   cursor: pointer;
   background-color: var(--grey);
 }
+
 
 .services .box-container h2 {
   margin-top: 40px;
@@ -621,7 +623,8 @@ text-align: start;
 }
 
 .services .box-container .box:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 
@@ -782,7 +785,8 @@ font-size: 25px;
 }
 
 .home-buisness .box-container .box:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 

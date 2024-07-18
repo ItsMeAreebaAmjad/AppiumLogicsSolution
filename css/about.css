@@ -318,7 +318,8 @@ font-size: 12px;
   line-height: 1.8;
 }
 .home-about .box-container .box:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 /* software quality assurance  */

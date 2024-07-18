@@ -851,4 +851,50 @@ line-height: 2.2rem;
     align-items: center;
     height: 100vh; /* Adjust this according to your layout */
   }
+
+
+
+  /* updated CSS */
+
+  .container .content{
+    width:800px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  
+  .container img{
+    width:500px;
+    height:400px;
+    margin-left: 900px;
+    margin-top: -250px;
+    border-radius: 5px;
+  }
+
+  .container2 .content2{
+    width:800px;
+    margin-left: 680px;
+    margin-top: 50px;
+  }
+  
+  .container2 img{
+    width:500px;
+    height:400px;
+    margin-left: 20px;
+    margin-top: -700px;
+    border-radius: 5px;
+  }
+
+  .container3 .content3{
+    width:800px;
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  
+  .container3 img{
+    width:500px;
+    height:400px;
+    margin-left: 900px;
+    margin-top: -260px;
+    border-radius: 5px;
+  }
   

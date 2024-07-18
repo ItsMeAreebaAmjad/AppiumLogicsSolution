@@ -851,4 +851,64 @@ line-height: 2.2rem;
     align-items: center;
     height: 100vh; /* Adjust this according to your layout */
   }
+
+
+
+  /* updated css */
+  .container .content{
+    width:800px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  
+  .container img{
+    width:500px;
+    height:400px;
+    margin-left: 900px;
+    margin-top: -250px;
+    border-radius: 5px;
+  }
+
+  .container2 .content2{
+    width:800px;
+    margin-left: 680px;
+    margin-top: 50px;
+  }
+  
+  .container2 img{
+    width:500px;
+    height:400px;
+    margin-left: 20px;
+   margin-top: -300px;
+    border-radius: 5px;
+  }
+
+  
+  .container3 .content3{
+    width:800px;
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+  
+  .container3 img{
+    width:500px;
+    height:400px;
+    margin-left: 900px;
+    margin-top: -500px;
+    border-radius: 5px;
+  }
+
+  .container4 .content4{
+    width:800px;
+    margin-left: 680px;
+    margin-top: 80px;
+  }
+  
+  .container4 img{
+    width:500px;
+    height:400px;
+    margin-left: 20px;
+   margin-top: -370px;
+    border-radius: 5px;
+  }
   
