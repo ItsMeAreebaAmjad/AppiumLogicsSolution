@@ -389,13 +389,19 @@ Proficiency</h3>
           <div class="appointmentcontent">
             <h1>Book the Appointment</h1>
             <p>Let’s discuss together the ideas</p>
-            <form action="insert.php" method="POST" class="appointmentform">
-      <input type="text"placeholder="Enter your name">
-      <input type="email"placeholder="Enter your Email Address">
-      <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="appointmentform">
+
+              <input type="hidden" name="access_key" value="a3ee52a0-7ffa-4f20-ace0-5f0613ddd922">
+
+      <input type="text"placeholder="Enter your name" name="name">
+      <input type="email"placeholder="Enter your Email Address" name="email">
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" name="message"></textarea>
       
-      <a href="" class="btn"> Send a message</a>
+      <!-- <a href="" class="btn" type="submit"> Send a message</a> -->
+      <button type="submit" class="btn">Send a message</button>
             </form>
+
           </div>
         </div>
       </section>

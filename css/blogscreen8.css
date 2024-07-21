@@ -912,3 +912,225 @@ line-height: 2.2rem;
    margin-top: -250px;
     border-radius: 5px;
   }
+
+
+  /* Contact form CSS */
+.form-container {
+  width: 1200px;
+  padding: 20px;
+  border: 1px solid #228B22;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 150px;
+}
+
+.form-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #228B22;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"]{
+  height:60px;
+}
+
+.form-row textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+}
+
+.form-row button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #228B22;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 400px;
+  margin: 10px auto;
+  display: block; 
+}
+
+.form-row button:hover {
+  background-color:#178817 ;
+}
+
+@media (min-width: 600px) {
+  .form-row {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .form-row textarea {
+      flex: 1;
+      margin-top: 10px;
+  }
+
+  .form-row button {
+      width: auto;
+      align-self: center;
+  }
+}
+
+
+/* Footer Section */
+.footer {
+  background-color:#001f3f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer h3 {
+  margin-top: 0;
+}
+
+.footer .box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.footer .box,
+.footer .Appointment {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer .Appointment h3,
+.footer .box h3 {
+  text-align: center;
+}
+
+.footer .map {
+  margin-bottom: 20px;
+}
+
+.footer .map iframe {
+  border: 0;
+  width: 100%;
+  height: 300px;
+}
+
+.footer .box span {
+  display: block;
+  margin: 5px 0;
+}
+
+.footer .follow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer .follow h1 {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.footer .follow ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .follow li {
+  margin: 0 10px;
+}
+
+.footer .follow a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer hr {
+  border: 0;
+  height: 4px;
+  background-color: white;
+  margin: 20px 0;
+  width: 80%;
+}
+
+.footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.footer .rightCopyright {
+  margin: 0;
+}
+
+
+
+.comments-container {
+  margin-top: 20px;
+}
+
+.comments-heading {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  /* background-color: #f9f9f9; */
+}
+
+.feedback-item-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.feedback-item-image {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.feedback-text p {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.feedback-text p:first-of-type {
+  font-weight: bold; 
+}
+
+

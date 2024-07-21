@@ -14,6 +14,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <!-- Contact Form JS Code -->
+     <script src="./js/ContactForm.js" ></script>
+    <!-- Send Email JS Code -->
+     <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script src="./js/contactEmail.js"></script> -->
   </head>
   <body>
     <div class="top-header">
@@ -109,15 +114,18 @@
           <hr class="line">
 <br>
 
-        <form  class="contact_form">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+
+          <input type="hidden" name="access_key" value="a3ee52a0-7ffa-4f20-ace0-5f0613ddd922">
+
           <div class="flex">
             <div class="inputBox">
          
               <input
                 type="text"
                 placeholder="First Name"
-                name="name"
-                required
+                name="firstname"
+              
               />
             </div>
             <div class="inputBox">
@@ -125,8 +133,8 @@
               <input
                 type="text"
                 placeholder="Last Name"
-                name="name"
-                required
+                name="lastname"
+              
               />
             </div>
   
@@ -136,7 +144,7 @@
                 type="number"
                 placeholder="Phone Number"
                 name="phone"
-                required
+              
               />
             </div>
             <div class="inputBox">
@@ -144,7 +152,7 @@
                 type="email"
                 placeholder="Email Address"
                 name="email"
-                required
+             
               />
             </div>
   
@@ -155,7 +163,7 @@
                 type="text"
                 placeholder="Subject"
                 name="Subject"
-                required
+                
                 />
               </div>
               <br><br>
@@ -168,8 +176,9 @@
   
           
   
-            <input type="submit" name="send" class="btn" value="Subject" />
+            <input type="submit" name="send" class="btn" value="Submit" />
         </form>
+        
       </section>
 
 
@@ -188,7 +197,7 @@
         <div class="container">
       <h3>Our Location</h3>  
           <div class="map">
-            <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2254.8795092222676!2d13.055522963404655!3d55.586705412978155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a183389b0c19%3A0x37ff82c3086675a5!2sThomsons%20v%C3%A4g%2028%2C%20213%2072%20Malm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2s!4v1715715580376!5m2!1sen!2s" height="350px" width="400px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2254.8795092222676!2d13.055522963404655!3d55.586705412978155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a183389b0c19%3A0x37ff82c3086675a5!2sThomsons%20v%C3%A4g%2028%2C%20213%2072%20Malm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2s!4v1715715580376!5m2!1sen!2s"  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
             </form>
           </div>
         </div>
